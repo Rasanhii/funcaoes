@@ -10,7 +10,6 @@ while True:
     senha = gerar_senha()
     print('A senha é:',senha)
     
-    pergun = input('Deseja gerar outra senha aleatória? (s/n)')
-    fim = pergun.lower
+    fim = input('Deseja gerar outra senha aleatória? (s/n)')
     if fim == 'n':
         break
